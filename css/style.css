@@ -1,0 +1,156 @@
+/* Top Navigation */
+.top-nav-bar {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f3f2f2;
+}
+  
+.top-nav-text a {
+  /* float: left; */
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10%;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.top-nav-text a:hover {
+  background-color:#6a83f3;
+  color: #ffffff;  
+}
+
+/* Avatar and Jumbotron*/
+
+.personal-info {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #b0b9ec;
+  padding: 3%;
+  height: auto;
+}
+
+.profile-picture {
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  padding: 5px;
+  max-width: 60%;
+  
+  /* display: block; */
+  /* height: 90%;  */
+  /* max-width: 1%; */
+    
+}
+
+.jumbotron{
+  /* position: relative;
+  overflow: hidden; */
+  padding: 10px;
+  max-width: 100%;
+  background-color: #b0b9ec;
+  margin-bottom: 0px;
+  /* border-radius: 0px; */
+  /* height: 60%; */
+}
+
+.jumbotron h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jumbotron-modified h1{
+ font-weight:bolder; 
+}
+
+/* Some of my work*/
+.my-work {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffffff;
+
+}
+.my-work p{
+  padding: 2%;
+  margin-bottom: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card {
+  max-height: 800px; 
+}
+
+.card-spacing{
+  padding: 4% 2%;
+}
+.card-img{
+  height: 200px;
+}
+
+
+.btn-primary {
+  background-color: #dfd9d9;
+  border: #dfd9d9;
+  color: #000000;
+}
+.btn-primary:hover {
+  background-color: #6a83f3;
+  border: #dfd9d9;
+}
+
+
+/* About me */
+.about-me {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffffff;
+  
+}
+
+.about-me p {
+  /* padding: 2%; */
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 0px;
+}
+
+
+.about-me-txt {
+  position: relative;
+  max-width: 100%;
+  /* padding: 5px; */
+  background-color: #f3f2f2;
+  padding: 4%;
+}
+
+.icons-container {
+  position: relative;
+  max-width: 100%;
+  background-color: #f3f2f2;
+  /* padding: %; */
+} 
+.icon-container {
+  position: relative;
+  max-width: 100%;
+  background-color: #f3f2f2;
+  padding: 4%;
+} 
+
+
+.icons-container input{
+  max-width: 40%;
+
+}
+.icons-container p{
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer-container{
+  background-color:#f3f2f2; 
+  padding: 5px;
+}
