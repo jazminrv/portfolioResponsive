@@ -79,6 +79,7 @@
 }
 .card {
   max-height: 800px; 
+  margin: 10px;
 }
 
 .card-spacing{
@@ -121,32 +122,29 @@
 .about-me-txt {
   position: relative;
   max-width: 100%;
-  /* padding: 5px; */
   background-color: #f3f2f2;
-  padding: 4%;
 }
 
-.icons-container {
+.areas-txt {
   position: relative;
-  max-width: 100%;
   background-color: #f3f2f2;
-  /* padding: %; */
-} 
-.icon-container {
-  position: relative;
-  max-width: 100%;
-  background-color: #f3f2f2;
-  padding: 4%;
-} 
-
-
-.icons-container input{
-  max-width: 40%;
-
 }
-.icons-container p{
-  font-size: 13px;
+
+.icons{
+  background-color: #f3f2f2;
+  padding: 15px;
+  text-align: center;  
+  
+}
+.icons-text p{
+  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.icons input{
+  width: 32px;
+align-content: center;
 }
 
 
