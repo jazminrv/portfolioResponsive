@@ -2,8 +2,10 @@
 .top-nav-bar {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  /* width: 100%; */
   background-color: #f3f2f2;
+  /* margin-top: 10px; */
+  max-height: 100px;
 }
   
 .top-nav-text a {
@@ -11,7 +13,8 @@
   display: block;
   color: #000000;
   text-align: center;
-  padding: 10%;
+  padding: 5px;
+  /* padding: 10%; */
   text-decoration: none;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +40,8 @@
   border: 1px solid #CCC;
   background-color: #FFF;
   padding: 5px;
-  max-width: 60%;
+  /* max-width: 60%; */
+  max-width: 110px;
   
   /* display: block; */
   /* height: 90%;  */
@@ -54,6 +58,7 @@
   margin-bottom: 0px;
   /* border-radius: 0px; */
   /* height: 60%; */
+  max-height:50%;
 }
 
 .jumbotron h1{
@@ -62,6 +67,24 @@
 
 .jumbotron-modified h1{
  font-weight:bolder; 
+}
+
+@media only screen and (max-width: 578px){
+  .jumbotron h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  }
+  .jumbotron p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+  }
+  .profile-picture {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    max-width: 70px;      
+  }
+
 }
 
 /* Some of my work*/
@@ -83,12 +106,22 @@
 }
 
 .card-spacing{
-  padding: 4% 2%;
+  padding: 2% 2%;
 }
 .card-img{
   height: 200px;
 }
 
+@media only screen and (max-width: 578px){
+ 
+  .card {
+    max-height: 500px; 
+    /* margin: 10px; */
+  } 
+  .card-img{
+    height: 50px;
+  };
+}
 
 .btn-primary {
   background-color: #dfd9d9;
